@@ -78,7 +78,7 @@ a:hover{
 .sub-study{
     display: flex;
     justify-content: space-evenly;
-   
+   animation: fadeIn 2s ease-in-out;
 
 }
 .main-study{
@@ -108,7 +108,14 @@ a:hover{
 }
 
 
-
+@keyframes fadeIn{
+    from{
+        opacity: 0;transform: translatey(20px);
+    }
+    to{
+        opacity: 1;transform: translateY(0);
+    }
+}
 
 
 @media (max-width:750px) {
