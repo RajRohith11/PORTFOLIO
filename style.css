@@ -132,5 +132,15 @@ a:hover{
            white-space: nowrap;
            font-size: 8px;
     }
+    .sub-study{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+    }
+    .sub1{
+        width: 80%;
+    }
    
 }
