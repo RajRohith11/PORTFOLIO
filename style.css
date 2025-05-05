@@ -104,5 +104,8 @@ a:hover{
         color: white;
         padding-top: 10px;
     }
+    .ws{
+        white-space: nowrap;
+    }
    
 }
