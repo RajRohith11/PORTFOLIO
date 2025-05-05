@@ -100,7 +100,7 @@ a:hover{
     .hide{
         display: flex;
         justify-content: space-evenly;
-        font-size: 12px;
+        font-size: 10px;
         color: white;
         padding-top: 10px;
     }
