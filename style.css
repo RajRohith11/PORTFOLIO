@@ -100,11 +100,11 @@ a:hover{
     .hide{
         display: flex;
         justify-content: space-evenly;
-        font-size: 10px;
+        font-size: 8px;
         color: white;
         padding-top: 10px;
     }
-    .ws{
+    #ws{
         white-space: nowrap;
     }
    
