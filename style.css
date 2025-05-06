@@ -14,12 +14,12 @@ body{
 .one{
     display: flex;
     justify-content: space-between;
-    padding-top: 50px;
+    padding-top: 70px;
     padding-bottom: 30px;
 }
 .top1{
     color: white;
-    padding-left: 20px;
+    padding-left: 30px;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -57,7 +57,7 @@ a:hover{
     align-items: center;
     text-align: center;
     color: #FF4F91;
-    gap: 10px;
+    gap: 20px;
     padding-top: 20px;
     padding-bottom: 20px;
     
@@ -70,6 +70,7 @@ a:hover{
 }
 #sum{
     color: white;
+    width: 70%;
 
 }
 .hide{
@@ -81,6 +82,7 @@ a:hover{
    animation: fadeIn 2s ease-in-out;
 
 }
+
 .main-study{
     display: flex;
     justify-content: center;
@@ -105,6 +107,22 @@ a:hover{
     color: white;
     text-align: center;
 
+}
+.skil{
+    gap: 25px;
+    border-radius: 10px;
+
+}
+.pro{
+    display: flex;
+    justify-content: space-evenly;
+    color: #FF4F91;
+}
+.project{
+    text-align: left;
+}
+.project li{
+    margin-bottom: 20px;
 }
 
 
@@ -158,6 +176,9 @@ a:hover{
     }
     .sub1{
         width: 80%;
+    }
+    .pro h2{
+        font-size: 15px;
     }
    
 }
